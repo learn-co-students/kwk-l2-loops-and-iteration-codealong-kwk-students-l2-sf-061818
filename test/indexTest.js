@@ -31,7 +31,7 @@ describe('index.js', () => {
       expect(printBadges(arr)).to.eq(arr);
     });
   });
-
+console.log("Welcome " + name)
   describe('tailsNeverFails()', () => {
     let spy;
 
